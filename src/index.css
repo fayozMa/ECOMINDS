@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --ecominds-primary: #034d20;
+    --ecominds-accent: #8bc349;
+    --ecominds-yellow-green: #a6c42d;
+    --ecominds-bg: #f4f8f4;
+    --ecominds-text: #1a2e22;
+    --ecominds-card: #ffffff;
+    --ecominds-border: #d4e7d8;
+  }
+
+  body {
+    background-color: var(--ecominds-bg);
+    color: var(--ecominds-text);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom scrollbars and styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f0f7f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #a3d2ab;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8bc349;
+}

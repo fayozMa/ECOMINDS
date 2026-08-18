@@ -1,0 +1,6 @@
+{
+  "name": "ECOMINDS - Model of COP (MCOP)",
+  "description": "Official interactive prototype platform for ECOMINDS Model of COP (MCOP) in Margilan, Fergana Region with application system, live classroom polling, participant portal, and organizer admin dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
